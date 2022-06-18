@@ -136,3 +136,13 @@ a {
     flex-direction: column;
   }
 }
+
+.flip-card {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover {
+  transform: rotateY(180deg);
+}
+
